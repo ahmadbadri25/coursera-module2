@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 1vh;
+}
+
+.judul h1 {
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+
+.section-1 {
+  position: relative;
+  float: left;
+  width: 32%;
+  padding: 50px 10px 10px 10px;
+  background: #ddd;
+}
+
+.section-1 span {
+  margin: 0;
+  float: right;
+  top: 0;
+  right: 0;
+  position: absolute;
+  padding: 10px 20px 10px 20px;
+  background-color: salmon;
+}
+
+.section-2 {
+  position: relative;
+  float: left;
+  width: 32%;
+  padding: 50px 10px 10px 10px;
+  background: #ddd;
+}
+
+.section-2 span {
+  margin: 0;
+  float: right;
+  top: 0;
+  right: 0;
+  position: absolute;
+  background-color: rgb(168, 24, 24);
+  padding: 10px 30px 10px 30px;
+  color: aliceblue;
+}
+
+.section-3 {
+  position: relative;
+  float: left;
+  width: 32%;
+  padding: 50px 10px 10px 10px;
+  background: #ddd;
+}
+
+.section-3 span {
+  margin: 0;
+  float: right;
+  top: 0;
+  right: 0;
+  position: absolute;
+  background-color: rgb(158, 158, 58);
+  padding: 10px 30px 10px 30px;
+  color: black;
+}
+
+@media only screen and (max-width: 991px) {
+  .section-1 {
+    width: 48%;
+  }
+
+  .section-2 {
+    width: 48%;
+  }
+
+  .section-3 {
+    width: 97.5%;
+    float: none;
+    clear: both;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .section-1 {
+    width: 90%;
+    float: none;
+  }
+
+  .section-2 {
+    width: 90%;
+    float: none;
+  }
+
+  .section-3 {
+    width: 90%;
+  }
+}
